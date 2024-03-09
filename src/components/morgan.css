@@ -1,0 +1,12 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-image: url("https://www.captainmorgan.com/assets/images/0a62347c3d66881e94443abb79986cd3.png");
+ 
+}
+
+
+#app{
+  height: 100%;
+  background-color: rgb(23, 22, 22);
+}

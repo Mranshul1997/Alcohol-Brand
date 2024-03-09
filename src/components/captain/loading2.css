@@ -1,0 +1,12 @@
+#load {
+    height: 100vh;
+    width: 100vw;
+    background-color: #333f52;
+    /* background-image: url("./3JD.gif"); */
+}
+
+#load img{
+    height: 550px;
+    width: 100%;
+   
+}

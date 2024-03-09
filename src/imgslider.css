@@ -1,0 +1,65 @@
+body{
+  background-image: url("https://usagif.com/wp-content/uploads/gif/beer-10.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#photu{
+  width: 100vw;
+  height: 650px;
+  object-fit: cover;
+  z-index: -1;
+}
+#beerabt{
+  text-align: center;
+  height: 300px;
+  width: 700px;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  font-family: cursive;
+  filter: drop-shadow(0 0 5px rgb(39, 38, 38));
+  z-index: 1;
+  margin-top: -450px;
+}
+
+#images{
+  height: 400px;
+  width: 70%;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* background-color: beige; */
+}
+
+
+#i2{
+  /* margin-top: -140px; */
+  height: 320px;
+  /* width: 100px; */
+} 
+
+#enter button{
+  height: 70px;
+  width: 250px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 150px;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: none;
+  
+
+
+}
+
+#enter button img{
+  height: 70px;
+  width: 200px;
+}
+
+#enter button:hover{
+  background-color: red;
+}

@@ -1,0 +1,360 @@
+
+#header {
+  margin-top: 15px;
+  height: 70px;
+  width: 100%;
+  text-align: center;
+  background-image: url("https://www.captainmorgan.com/assets/images/0a62347c3d66881e94443abb79986cd3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px !important;
+  padding-bottom: 30px;
+  position: fixed;
+  z-index: 1;
+}
+
+#header img {
+  padding-left: 20px;
+}
+
+#header ul {
+  height: 60px;
+  width: 22em;
+  /* background-color: #fff; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 22px;
+  padding-right: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  /* font-weight: 300; */
+}
+
+#header ul li:hover {
+  transition: 0.5s;
+  color: #aa2219;
+}
+
+
+#rst {
+  width: 99.99%;
+  height: 550px;
+  background-image: url("https://media.captainmorgan.com/media/1093/xmasheader.png?mode=crop");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.bttn {
+  height: 50px;
+  width: 180px;
+  background-color: #d4170a;
+  border: none;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+
+#subFrst {
+  height: 400px;
+  width: 250px;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  /* margin-top: 400px; */
+}
+
+#subFrst h1 {
+  color: #cda359;
+  font-size: 55px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
+  text-shadow: rgb(20, 20, 20) 3px 3px;
+}
+
+#scnd {
+  height: 750px;
+  width: 99.99%;
+  margin-top: -30px;
+  background-image: url("https://www.captainmorgan.com/assets/images/0a62347c3d66881e94443abb79986cd3.png");
+  color: rgb(49, 49, 49);
+  padding-top: 30px;
+  /* font-size: 25px; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* position: absolute; */
+}
+
+#subScnd {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: center;
+  /* background-color: grey; */
+  color: black;
+}
+#subScnd p {
+  color: rgb(64, 61, 61);
+  font-family: sans-serif;
+}
+
+#captain {
+  background-color: whitesmoke;
+}
+#mojito {
+  background-color: whitesmoke;
+}
+#captain img {
+  margin-top: 20px;
+  height: 400px;
+  width: 380px;
+}
+#mojito img {
+  height: 400px;
+  width: 380px;
+}
+#variety1 {
+  height: 800px;
+  width: 99.99%;
+  background-image: url("https://www.captainmorgan.com/assets/images/aefa98f4d8e233834b7a9dc48fe4e503.png");
+}
+
+#variety {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.brand {
+  width: 14.5%;
+  text-align: center;
+  color: white;
+  font-family: Impact, "Arial Narrow Bold", sans-serif "Arial Narrow";
+  font-size: 20px;
+}
+
+.brand img {
+  height: 450px;
+}
+
+.brand img:hover {
+    height: 450px;
+    animation-name: tilt;
+    animation-duration: .5s;
+    animation-iteration-count: 1s;
+    
+}
+
+
+@keyframes tilt {
+    0%,100% {
+      transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+        /* transition: ease-out; */
+  }
+}
+
+#btn {
+  height: 60px;
+  width: 250px;
+  background-color: #b18232;
+  border: none;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 22px;
+}
+
+
+#history {
+  margin: 50px auto;
+  /* padding-top: 20px; */
+  height: 400px;
+  width: 400px;
+  font-size: 25px;
+  /* border: 2px solid red; */
+  background-image: url("https://media.captainmorgan.com/media/1171/barrelsheader.png?mode=crop");
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Impact, Haettenschweiler, "Arial Narrow ", sans-serif;
+}
+#share {
+  height: 120px;
+  width: 99.99%;
+  background-color: #282d33;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url("https://www.captainmorgan.com/assets/images/26d2f82ce29d4c41ca3c98365945efcb.png");
+  /* background-image: url("	https://www.captainmorgan.com/assets/images/26d2f82ce29d4c41ca3c98365945efcb.png"); */
+}
+#share ul {
+  width: 20%;
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#share ul li img {
+  height: 50px;
+  width: 50px;
+}
+
+#follow {
+  /* height: 300px; */
+  /* background-color: #fff; */
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: Impact, "Arial Narrow ";
+  color: rgb(61, 60, 60);
+  font-weight: 400;
+  padding-top: 20px;
+}
+#follow p {
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-top: -0px;
+  color: grey;
+}
+
+footer {
+  height: 350px;
+  width: 99.99%;
+  /* background-color: #efeded; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+#ul1 {
+  height: 60px;
+  width: 95vw;
+  background-color: rgb(61, 60, 60);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  list-style: none;
+  gap: 4em;
+  margin-top: -25px;
+}
+
+footer #ul1 li {
+  border-right: 1px solid white;
+  padding-right: 20px;
+}
+
+footer #ul1 li:hover {
+  color: white;
+  font-weight: 700;
+}
+
+#terms ul {
+  background-color: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  /* color: rgb(112, 112, 112); */
+}
+
+#terms ul li {
+  border-right: 1px solid black;
+  padding-right: 20px;
+}
+
+#terms ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer h3 {
+  color: rgb(55, 54, 54);
+  height: 20px;
+}
+footer h4 {
+  color: rgb(82, 82, 82);
+  font-size: 18px;
+  margin-top: -30px;
+  font-family: sans-serif;
+  height: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  #header img{
+    height: 3em;
+  }
+  #header ul{
+    font-size: 1em;
+  }
+
+  #rst{
+    height: 550px;
+    width: 102vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-top: -60px; */
+  }
+  #subScnd{
+    /* margin-top: 300px; */
+    flex-direction: column;
+  }
+  #scnd button{
+    margin-top: 1em;
+  }
+
+  #sub2{
+    margin-top: 25em;
+  }
+  #variety1{
+    margin-top: 35em;
+  }
+  #share{
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+  }
+  #share ul{
+    text-align: center;
+    gap: 20px;
+  }
+  #ul1{
+    /* width: 80vw; */
+    font-size: 12px;
+  }
+  #terms ul{
+    width: 90vw;
+    font-size: 15px;
+  }
+}
+

@@ -1,0 +1,57 @@
+#main{
+    height: 99vh;
+    width: 99vw;
+    background-image: url("https://media.diageocms.com/media/5uejjxvt/mai-tai_original-spiced-rum_retouch_clean_rgb_01.jpg");
+    margin: 0;
+    margin-top:-20px ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#age{
+    margin: 20px auto;
+    padding: 30px;
+    background-color:#d81d10;
+    height: 89vh;
+    width: 400px;
+    border: 2px solid white;
+    border-radius: 10px; 
+    color: white;  
+    /* font-family: Impact, 'Arial Narrow Bold', sans-serif;   */
+}
+#age img{
+    height: 60px;
+    width: 80%;
+    margin: 20px auto;
+    margin-left: 30px;
+}
+
+#age h4{
+
+    font-size: 25px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+
+}
+#age input{
+    width: 330px;
+    height: 60px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 20px 0px;
+    font-size: 16px;
+}
+
+#age h3{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#age button{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    color: #aa2219;
+    font-weight: 700;
+}
